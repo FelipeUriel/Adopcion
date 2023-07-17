@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  
+    background-size: cover;
+    background-attachment: fixed;
+}
+* {
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 100%;
+    padding: 15px;
+}
+.formulario{
+    background: #f0e3e347;
+    margin-top: 150px;
+    padding: 3px;
+}
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+.input-contenedor{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background:  #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background: cadetblue;
+}
+p{
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+      color: #1a2537;
+    font-weight: 600;
+}
+.link:hover{
+     color: cadetblue;
+}
+@media(min-width:800px)
+{
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+body {
+    position: relative;
+    height: 100%;
+}
+body{
+    background-color: #323232;
+    font-size: Helvetica;
+    font-size: 14px;
+    color: #000;
+    margin: 0%;
+    padding: 0%;
+}
+
+.swiper{
+    width: 100%;
+    padding: 150px 0 50px 0;
+
+}
+
+.swiper-slide{
+    width: 300px;
+    height: 500px;
+    background-color: #323232;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+    padding: 40px;
+    text-align: center;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.icons i{
+    font-size: 20px;
+    color: #FF8900;
+}
+
+.icons img{
+    width: 120px;
+}
+
+.mascota-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mascota-txt{
+    flex-basis: 50%;
+}
+
+.mascota-txt span{
+    font-size: 25px;
+    color: #FF8900;
+    font-weight: bold;
+}
+
+.mascota-txt h3{
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.mascota-txt{
+    font-size: 14px;
+    color: #c4c4c4;
+}
+
+.mascora-img{
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.mascora-img img{
+    width: 120px;
+    
+}
