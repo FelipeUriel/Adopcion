@@ -27,9 +27,9 @@ switch ($op) {
 		
 		if($tipo==	1){			
 			//require_once('../view/administracion.php');
-        	require_once('Login.html');
+        	require_once('Index.html');
 		} else {
-			require_once('index.html');
+			require_once('inicio.html');
 		}
 
 		break;
