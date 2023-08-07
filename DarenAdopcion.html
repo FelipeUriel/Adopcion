@@ -24,6 +24,11 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.min.css" rel="stylesheet">
+
+    <style>
+        .input-large {width: 100%;}
+    </style>
+
 </head>
 
 <body>
@@ -66,29 +71,33 @@
     </div>
     <!-- Page Header End -->
 
-    <div>
+    <div style="display: grid;grid-template-columns: 30% 20%;gap: 20px;align-items: baseline;justify-content: center;width: 100%;border: blue solid 1px;margin: auto;">
+        <div class="input-box">
+            <span class="details">Nombre de la mascota</span>
+            <input class="input-large" type="text" placeholder="Ingrese su nombre" required>
+        </div>
         
-        <span class="details">Nombre de la mascota</span>
-                <input type="text" placeholder="Ingrese su nombre" required>
-            </div>
             <div class="input-box">
                 <span class="details">Raza</span>
-                <input type="text" placeholder="Ingrese su raza" required>
+                <input class="input-large" type="text" placeholder="Ingrese su raza" required>
+            </div>
+
+            <div class="input-box input-large">
+                <span class="details">Especie (tipo de mascota)</span>
+                <input class="input-large" type="text" placeholder="Ingrese su especie" required>
             </div>
 
             <div class="input-box">
-                <span class="details">Especie (tipo de mascota)</span>
-                <input type="text" placeholder="Ingrese su especie" required>
-            </div>
-            <div class="input-box">
                 <span class="details">Descripción</span>
-                <input type="text" placeholder="Ingrese una descripción" required>
+                <input class="input-large" type="text" placeholder="Ingrese una descripción" required>
             </div>
-            <label for="avatar"><strong>Mascota</strong></label>
-            <input type="file" name="Mascota" id="mascota"> 
+
+            <div class="input-box">
+                <label for="avatar"><strong>Mascota</strong></label>
+                <input class="input-large" type="file" name="Mascota" id="mascota"> 
+            </div>
+            
             <input type="submit" value="Subir mascota" class="button">
-           
-        </div>
     </div>
 
 
