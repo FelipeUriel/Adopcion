@@ -68,3 +68,17 @@
     
 })(jQuery);
 
+
+function llamarApi() {
+    alert("Lllamndo a la api");
+    setTimeout( () => {
+        logMovies();
+    }, 1000);
+}
+
+
+async function logMovies() {
+    const response = await fetch("https://swapi.dev/api/");
+    const root = await response.json();
+    console.log("API Starwars", root);
+  }
