@@ -81,4 +81,5 @@ async function logMovies() {
     const response = await fetch("https://swapi.dev/api/");
     const root = await response.json();
     console.log("API Starwars", root);
+    localStorage.setItem("swars", JSON.stringify(root))
   }
