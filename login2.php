@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title></title> 
 	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
-    <meta name="viewport" content="width">
  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
 	<link rel="stylesheet" href="registro.css">
 	
@@ -16,26 +15,22 @@
     <form action="#">
         <div class="user-details">
             <div class="input-box">
-                <span class="details">Nombres</span>
-                <input type="text" placeholder="Ingrese su nombre/ s" required>
+                <span class="details">Nombre</span>
+                <input type="text" placeholder="Ingrese su nombre" required>
             </div>
             <div class="input-box">
                 <span class="details">Apellido paterno</span>
-                <input type="text" placeholder="Ingrese su raza" required>
+                <input type="text" placeholder="Ingrese su apellido paterno" required>
             </div>
 
             <div class="input-box">
                 <span class="details">Apellido materno</span>
-                <input type="text" placeholder="Ingrese su tamaño" required>
+                <input type="text" placeholder="Ingrese su apellido materno" required>
             </div>
 
             <div class="input-box">
                 <span class="details">Gmail</span>
                 <input type="text" placeholder="Ingrese su Gmail" required>
-            </div>
-            <div class="input-box">
-                <span class="details">Número telefonico</span>
-                <input type="text" placeholder="Ingrese su número telefonico" required>
             </div>
             <div class="input-box">
                 <span class="details">Contraseña</span>
@@ -44,23 +39,6 @@
             <div class="input-box">
                 <span class="details">Confirme su contraseña</span>
                 <input type="text" placeholder="Ingrese su contraseña" required>
-            </div>
-        </div>
-
-        <div class="gender-details">
-            <input type="radio" name="Gener" id="dot-1">
-            <input type="radio" name="Gener" id="dot-2">
-            <input type="radio" name="Gener" id="dot-3">
-            <span class="gender-tittle">Estado</span>
-            <div class="categorias">
-                <label for="dot-1">
-                    <span class="dot one"></span>
-                    <span class="gender">Adoptante</span>
-                </label>
-                <label for="dot-2">
-                    <span class="dot two"></span>
-                    <span class="gender">Adoptador/a</span>
-                </label>
             </div>
         </div>
         <div class="button">
